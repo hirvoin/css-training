@@ -1,9 +1,12 @@
-import React from "react"
+import React from 'react'
+import NavBar from './components/NavBar'
+import Container from './components/Container'
 
 const App = () => {
   return (
     <div>
-      <h2>css-training</h2>
+      <NavBar />
+      <Container />
     </div>
   )
 }
