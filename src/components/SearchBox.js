@@ -1,18 +1,29 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const SearchBox = () => {
   const seachboxStyle = {
+    backgroundColor: 'lightgray',
     border: 'solid',
-    borderColor: 'white',
+    borderColor: 'lightgray',
     borderRadius: '9px',
-    height: '20px',
+    height: '15px',
     borderWidth: 'thick',
   }
 
+  const iconStyle = {
+    color: 'lightgray',
+
+    // textAling: 'center',
+    marginRight: '10px',
+  }
+
   return (
-    <div>
+    <form>
+      <FontAwesomeIcon icon={faSearch} style={iconStyle} />
       <input style={seachboxStyle} placeholder="Type here..." />
-    </div>
+    </form>
   )
 }
 

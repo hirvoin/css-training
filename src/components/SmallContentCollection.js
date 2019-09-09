@@ -8,7 +8,7 @@ const SmallContentCollection = () => {
 
   return (
     <div style={collectionStyle}>
-      <ContentSmall style={{ float: 'left' }} />
+      <ContentSmall />
       <ContentSmall />
       <ContentSmall />
     </div>

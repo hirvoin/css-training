@@ -5,9 +5,11 @@ import SmallContentCollection from './SmallContentCollection'
 
 const Container = () => {
   const containerStyle = {
+    backgroundColor: 'ghostwhite',
     maxWidth: '1200px',
-    margin: 'auto',
-    backgroundColor: 'white',
+    marginRight: 'auto',
+    marginLeft: 'auto',
+    marginBottom: '10%',
   }
   return (
     <div style={containerStyle}>

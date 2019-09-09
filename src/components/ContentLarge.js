@@ -6,6 +6,8 @@ const ContentLarge = () => {
     margin: '1%',
     backgroundColor: 'white',
     border: 'solid',
+    borderColor: 'white',
+    boxShadow: '0px 2px 9px slategray',
   }
 
   return (

@@ -5,6 +5,7 @@ const HeaderMain = () => {
     // margin: '0px',
     padding: '50px ',
     textAling: 'center',
+    color: 'dimgray',
   }
   return (
     <h1 style={headerStyle}>
