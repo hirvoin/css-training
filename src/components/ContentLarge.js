@@ -11,7 +11,7 @@ const ContentLarge = () => {
   }
 
   return (
-    <div style={contentStyle}>
+    <p style={contentStyle}>
       Anim cupidatat in laboris eiusmod quis occaecat minim aute cupidatat.
       Cillum veniam exercitation esse pariatur aliqua ex quis elit do. Eu
       ullamco ad consectetur ad incididunt elit deserunt dolore nostrud quis
@@ -32,7 +32,7 @@ const ContentLarge = () => {
       laborum sint anim culpa consequat ipsum. Eu mollit aliqua nostrud nostrud
       culpa adipisicing Lorem consectetur nulla. Qui nostrud magna officia
       labore nulla.
-    </div>
+    </p>
   )
 }
 

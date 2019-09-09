@@ -1,17 +1,14 @@
 import React from 'react'
 
-const HeaderMain = () => {
+const HeaderMain = ({ text }) => {
   const headerStyle = {
     // margin: '0px',
-    padding: '50px ',
+    padding: '10px ',
     textAling: 'center',
     color: 'dimgray',
+    fontSize: '3.5em',
   }
-  return (
-    <h1 style={headerStyle}>
-      Aute aliqua ea esse non nisi sunt cillum minim velit ipsum
-    </h1>
-  )
+  return <h1 style={headerStyle}>{text}</h1>
 }
 
 export default HeaderMain

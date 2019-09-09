@@ -1,23 +1,23 @@
 import React from 'react'
-import ContentLarge from './ContentLarge'
 import HeaderMain from './HeaderMain'
-import SmallContentCollection from './SmallContentCollection'
+import SignInForm from './SignInForm'
 
-const Container = () => {
+const SignInPage = () => {
   const containerStyle = {
     backgroundColor: 'ghostwhite',
+    boxShadow: '0px 2px 9px slateblue',
     maxWidth: '1200px',
     marginRight: 'auto',
     marginLeft: 'auto',
-    marginBottom: '10%',
+    marginBottom: '12%',
+    padding: '0% 1% 1% 1%',
   }
   return (
     <div style={containerStyle}>
-      <HeaderMain />
-      <ContentLarge />
-      <SmallContentCollection />
+      <HeaderMain text="Sign in" />
+      <SignInForm />
     </div>
   )
 }
 
-export default Container
+export default SignInPage

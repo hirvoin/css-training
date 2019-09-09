@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faHome,
@@ -34,28 +35,42 @@ const NavBar = () => {
       }}
     >
       <ul role="navigation" style={navbarStyle}>
-        <li style={navbaritemStyle}>
-          <FontAwesomeIcon icon={faHome} style={{ marginRight: '10px' }} />
-          Home
-        </li>
-        <li style={navbaritemStyle}>
-          <FontAwesomeIcon icon={faNewspaper} style={{ marginRight: '10px' }} />
-          News
-        </li>
-        <li style={navbaritemStyle}>
-          <FontAwesomeIcon
-            icon={faQuestionCircle}
-            style={{ marginRight: '10px' }}
-          />
-          About
-        </li>
+        <Link to="/">
+          <li style={navbaritemStyle}>
+            <FontAwesomeIcon icon={faHome} style={{ marginRight: '10px' }} />
+            Home
+          </li>
+        </Link>
+        <Link to="/news">
+          <li style={navbaritemStyle}>
+            <FontAwesomeIcon
+              icon={faNewspaper}
+              style={{ marginRight: '10px' }}
+            />
+            News
+          </li>
+        </Link>
+        <Link to="/about">
+          <li style={navbaritemStyle}>
+            <FontAwesomeIcon
+              icon={faQuestionCircle}
+              style={{ marginRight: '10px' }}
+            />
+            About
+          </li>
+        </Link>
         <li style={{ ...navbaritemStyle, fontSize: '1em', margin: 'auto' }}>
           <SearchBox />
         </li>
-        <li style={{ ...navbaritemStyle, marginLeft: 'auto' }}>
-          <FontAwesomeIcon icon={faSignInAlt} style={{ marginRight: '10px' }} />
-          Sign in
-        </li>
+        <Link to="/sign-in">
+          <li style={{ ...navbaritemStyle, marginLeft: 'auto' }}>
+            <FontAwesomeIcon
+              icon={faSignInAlt}
+              style={{ marginRight: '10px' }}
+            />
+            Sign in
+          </li>
+        </Link>
       </ul>
     </nav>
   )

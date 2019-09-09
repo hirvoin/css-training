@@ -8,21 +8,19 @@ const SearchBox = () => {
     border: 'solid',
     borderColor: 'lightgray',
     borderRadius: '9px',
-    height: '15px',
-    borderWidth: 'thick',
+    height: '30px',
+    fontSize: '1em',
   }
 
   const iconStyle = {
     color: 'lightgray',
-
-    // textAling: 'center',
     marginRight: '10px',
   }
 
   return (
     <form>
       <FontAwesomeIcon icon={faSearch} style={iconStyle} />
-      <input style={seachboxStyle} placeholder="Type here..." />
+      <input type="search" style={seachboxStyle} placeholder="Type here..." />
     </form>
   )
 }
