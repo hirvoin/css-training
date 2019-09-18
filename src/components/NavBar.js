@@ -31,7 +31,7 @@ const NavBar = () => {
       style={{
         margin: 0,
         backgroundColor: 'midnightblue',
-        boxShadow: '0px 5px 9px slategray',
+        boxShadow: '0px 5px 9px slategray, 0px 2px 2px black',
       }}
     >
       <ul role="navigation" style={navbarStyle}>

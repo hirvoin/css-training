@@ -7,10 +7,9 @@ const SignInPage = () => {
     backgroundColor: 'ghostwhite',
     boxShadow: '0px 2px 9px slateblue',
     maxWidth: '1200px',
-    marginRight: 'auto',
-    marginLeft: 'auto',
-    marginBottom: '12%',
+    margin: '40px auto 200px auto',
     padding: '0% 1% 1% 1%',
+    minHeight: '500px',
   }
   return (
     <div style={containerStyle}>

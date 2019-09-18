@@ -3,7 +3,7 @@ import React from 'react'
 const ContentLarge = () => {
   const contentStyle = {
     padding: '1%',
-    margin: '1%',
+    margin: '2%',
     backgroundColor: 'white',
     border: 'solid',
     borderColor: 'white',
