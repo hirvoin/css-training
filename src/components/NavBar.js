@@ -11,7 +11,6 @@ import SearchBox from './SearchBox'
 
 const NavBar = () => {
   const navbarStyle = {
-    backgroundColor: 'midnightblue',
     listStyleType: 'none',
     maxWidth: '1200px',
     margin: 'auto',
@@ -30,7 +29,10 @@ const NavBar = () => {
     <nav
       style={{
         margin: 0,
-        backgroundColor: 'midnightblue',
+        // backgroundColor: 'midnightblue',
+        background: 'rgb(73,67,157)',
+        background:
+          'linear-gradient(90deg, rgba(73,67,157,1) 0%, rgba(25,25,112,1) 10%, rgba(14,14,73,1) 90%)',
         boxShadow: '0px 5px 9px slategray, 0px 2px 2px black',
       }}
     >

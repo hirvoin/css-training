@@ -2,12 +2,12 @@ import React from 'react'
 
 const ContentLarge = () => {
   const contentStyle = {
-    padding: '1%',
+    padding: '2%',
     margin: '2%',
     backgroundColor: 'white',
     border: 'solid',
     borderColor: 'white',
-    boxShadow: '0px 2px 9px slategray',
+    boxShadow: '0px 2px 5px slategray',
   }
 
   return (

@@ -3,9 +3,11 @@ import React from 'react'
 const Footer = () => {
   const footerStyle = {
     backgroundColor: 'lightslategray',
-    marginBottom: '0',
     textAlign: 'center',
     display: 'flex',
+    position: 'absolute',
+    bottom: '0',
+    width: '100%',
   }
 
   const contentStyle = {

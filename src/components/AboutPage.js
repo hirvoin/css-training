@@ -6,18 +6,20 @@ import HeaderMain from './HeaderMain'
 const AboutPage = () => {
   const containerStyle = {
     backgroundColor: 'ghostwhite',
-    boxShadow: '0px 2px 9px slateblue',
+    boxShadow: '0px 2px 9px slateblue, 1px 1px 1px black',
     maxWidth: '1200px',
-    margin: '40px auto 200px auto',
-    padding: '0% 1% 1% 1%',
+    margin: '10px auto 200px auto',
+    padding: '1% 1% 1% 1%',
   }
   return (
-    <div style={containerStyle}>
+    <div>
       <HeaderMain text="About" />
-      <div style={{ display: 'flex ' }}>
-        <ImageMedium />
-        <ContentSmall />
-        <ImageMedium />
+      <div style={containerStyle}>
+        <div style={{ display: 'flex ' }}>
+          <ImageMedium />
+          <ContentSmall />
+          <ImageMedium />
+        </div>
       </div>
     </div>
   )

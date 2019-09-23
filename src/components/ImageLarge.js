@@ -2,7 +2,7 @@ import React from 'react'
 
 const ImageLarge = () => {
   const imageStyle = {
-    boxShadow: '0px 2px 9px slategray',
+    boxShadow: '0px 2px 5px slategray',
     margin: '1%',
     backgroundColor: 'white',
     border: 'solid',

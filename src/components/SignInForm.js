@@ -2,12 +2,12 @@ import React from 'react'
 
 const SignInForm = () => {
   const formStyle = {
-    padding: '1%',
-    margin: '2%',
-    // backgroundColor: 'white',
-    // border: 'solid',
-    // borderColor: 'white',
-    // boxShadow: '0px 2px 9px slategray',
+    padding: '2%',
+    margin: 'auto',
+    backgroundColor: 'white',
+    border: 'solid',
+    borderColor: 'white',
+    boxShadow: '0px 2px 5px slategray',
     display: 'inline-block',
   }
   return (

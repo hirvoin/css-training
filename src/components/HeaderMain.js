@@ -4,17 +4,26 @@ import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 const HeaderMain = ({ text }) => {
   const headerStyle = {
-    margin: '0 0 30px 100px',
-    padding: '3%',
-    // textAling: 'center',
+    margin: '40px auto 30px auto',
+    // padding: '2%',
+    textAling: 'center',
     color: 'dimgray',
     fontSize: '3.5em',
+    textShadow: '0px 1px 2px midnightblue',
     // display: 'block',
   }
   return (
-    <div style={headerStyle}>
-      <FontAwesomeIcon icon={faHome} style={{ marginRight: '10px' }} />
-      {text}
+    <div style={{ display: 'flex' }}>
+      <div style={headerStyle}>
+        <FontAwesomeIcon
+          icon={faHome}
+          style={{
+            marginRight: '10px',
+            textShadow: '10px 10px 3px midnightblue',
+          }}
+        />
+        {text}
+      </div>
     </div>
   )
 }
